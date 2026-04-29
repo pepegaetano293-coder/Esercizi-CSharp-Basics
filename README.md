@@ -26,6 +26,11 @@ Simulatore di un punto vendita con generazione dinamica dei prezzi.
 **Logica:** Creazione di uno scontrino virtuale con calcolo del totale e applicazione di sconti.
 **Funzionalità:** Sincronizzazione di due liste parallele (prodotti e prezzi) e calcolo di percentuali su tipi di dato double per mantenere la precisione dei decimali. Inoltre, è stato creato un sistema di sconto automatico del 10% per spese superiori a 50€.
 
+## Distributore di sigarette
+Simulatore di un distributore di sigarette.
+**Logica:** Gestione del flusso di acquisto tramite validazione dell'anno di nascita e controllo dinamico della transazione economica.
+**Funzionalità:** Utilizzo di una "Hashtable" per mappare le coppie prodotto-prezzo e implementazione di un sistema di "rabbocco" del credito tramite cicli "while". Il programma gestisce il calcolo del resto in tempo reale in include filtri di sicurezza per bloccare l'accesso ai minori e prevenire errori di inserimento (casting di tipi "double" e "char").
+
 ## Strumenti
 **Linguaggio:** C#.
 **Piattaforma:** Visual Code.
